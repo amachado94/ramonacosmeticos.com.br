@@ -1,0 +1,57 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: transparent url('/images/background.png');
+  color: white;
+  font-weight: 300;
+}
+
+a { color: #818285; text-shadow: none }
+h1 { font-weight: normal; text-shadow: 1px 1px #333 }
+p { line-height: 28px; }
+span { color: #000000; }
+
+#under-construction {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+}
+
+#under-construction p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+#under-construction .tel p {
+  font-size: 28px;
+  color: #000000;
+  font-weight: normal;
+}
+
+.logo { width: 350px; }
+
+.gap {
+  border: 0;
+  margin: 30px 0;
+}
+
+.maps { font-weight: normal }
+.icons { margin-bottom: 60px }
+.icon-mr { margin-right: 20px }
+.img-mr { margin-right: 8px }
+
+.icon-phone {
+  font-weight: 24px;
+  margin-bottom: -3px;
+}
+
+.address span { 
+  color: #818285;
+  font-weight: 400;
+  font-size: 16px; 
+  text-shadow: 1px 1px white;
+}
